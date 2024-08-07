@@ -1,0 +1,49 @@
+.navbar-custom {
+    background-color: transparent !important; /* Remove or change the background color */
+  }
+  
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 10px; /* Adjust space between buttons */
+  }
+  
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-button.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .nav-button:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+    text-decoration: none;
+  }
+  
+
+  .login {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  } 
